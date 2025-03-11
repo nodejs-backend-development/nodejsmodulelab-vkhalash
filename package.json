@@ -1,0 +1,25 @@
+{
+  "name": "simple_web_app",
+  "version": "1.0.0",
+  "description": "Simple nodejs web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./*.js",
+    "lint:fix": "eslint --fix ./*.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "No",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
+  }
+}
